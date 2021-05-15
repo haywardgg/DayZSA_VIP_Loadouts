@@ -2,7 +2,7 @@
 
 Pro Tip: Fork this repository so you can edit and track your own changes (top right Fork icon)
 
-Merge file (advanced method): https://github.com/haywardgb/DayZSA_VIP_Loadouts/blob/main/manually_merge.c
+Merge file (advanced method): https://github.com/haywardgb/DayZSA_VIP_Loadouts/blob/main/merge.c
 
 OR, the easy way:
 
