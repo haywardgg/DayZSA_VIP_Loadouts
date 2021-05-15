@@ -15,6 +15,7 @@ You want to cut and paste everything after id= and before )
 
 =============== Code for manually merging with your existing init.c ===============
 
+```c
 // Replace everything from "class CustomMission: MissionServer" with this:
 
 class CustomMission: MissionServer
@@ -242,4 +243,4 @@ Mission CreateCustomMission(string path)
 	return new CustomMission();
 }
 
-// This should be the very last line of your init.c 
+// This should be the very last line of your init.c ```
