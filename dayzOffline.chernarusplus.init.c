@@ -120,11 +120,11 @@ class CustomMission: MissionServer
 		rags.SetQuantity(4);
 		ItemBase light = player.GetInventory().CreateInInventory("Flashlight");
 		light.GetInventory().CreateAttachment("Battery9V");
-		EntityAI gun = player.GetInventory().CreateInInventory("AKM");								// Weapon
-		gun.GetInventory().CreateAttachment("AK_RailHndgrd");										// Weapon Attachment (Handguard)
-		ItemBase gunlight = gun.GetInventory().CreateAttachment("UniversalLight");					// Weapon Attachment (Universal Light)
-		gunlight.GetInventory().CreateAttachment("Battery9V");										//     Add battery to Universal Light
-		addMags(player, "Mag_AKM_30Rnd", 4);														// Magazines
+		EntityAI gun = player.GetInventory().CreateInInventory("AKM");					// Weapon
+		gun.GetInventory().CreateAttachment("AK_RailHndgrd");						// Weapon Attachment (Handguard)
+		ItemBase gunlight = gun.GetInventory().CreateAttachment("UniversalLight");			// Weapon Attachment (Universal Light)
+		gunlight.GetInventory().CreateAttachment("Battery9V");						//     Add battery to Universal Light
+		addMags(player, "Mag_AKM_30Rnd", 4);								// Magazines
 		ItemBase melee = player.GetInventory().CreateInInventory(meleeArray.GetRandomElement());	// Melee
 				
 		player.SetQuickBarEntityShortcut(gun, 0, true);
@@ -165,8 +165,8 @@ class CustomMission: MissionServer
 		rags.SetQuantity(4);
 		ItemBase light = player.GetInventory().CreateInInventory("Flashlight");
 		light.GetInventory().CreateAttachment("Battery9V");
-		EntityAI gun = player.GetInventory().CreateInInventory("AKS74U");							// Weapon
-		addMags(player, "Mag_AK74_30Rnd", 2);														// Magazines
+		EntityAI gun = player.GetInventory().CreateInInventory("AKS74U");				// Weapon
+		addMags(player, "Mag_AK74_30Rnd", 2);								// Magazines
 		ItemBase melee = player.GetInventory().CreateInInventory(meleeArray.GetRandomElement());	// Melee
 		
 		player.SetQuickBarEntityShortcut(gun, 0, true);
@@ -207,8 +207,8 @@ class CustomMission: MissionServer
 		rags.SetQuantity(4);
 		ItemBase light = player.GetInventory().CreateInInventory("Flashlight");
 		light.GetInventory().CreateAttachment("Battery9V");
-		EntityAI gun = player.GetInventory().CreateInInventory("AKS74U");  							// Weapon
-		addMags(player, "Mag_AK74_30Rnd", 2); 														// Magazines								
+		EntityAI gun = player.GetInventory().CreateInInventory("AKS74U");  				// Weapon
+		addMags(player, "Mag_AK74_30Rnd", 2); 								// Magazines								
 		ItemBase melee = player.GetInventory().CreateInInventory(meleeArray.GetRandomElement());	// Melee
 		
 		player.SetQuickBarEntityShortcut(gun, 0, true);
