@@ -7,7 +7,7 @@
 
 You can find your player ID by looking through your console and server logs for entries like this:
 	
-	12:20:20 Player RandomGuy connected (id=Iju6RjrohthfN7ITmRaf8eerbS4hjSfyzGs1vhHvm8g=).
+	12:20:20 Player RandomGuy connected (id=Iju6RjrohthfN7ITmRaf8eerbS4hjSfyzGs1vhHvm8g=)
 	
 You want to cut and paste everything after `id=` and before `)`
 	
