@@ -16,7 +16,7 @@ You want to cut and paste everything after id= and before )
 =============== Code for manually merging with your existing init.c ===============
 
 ```c
-// Replace everything from "class CustomMission: MissionServer" with this:
+// Replace everything from "class CustomMission: MissionServer" in your init.c with this:
 
 class CustomMission: MissionServer
 {	
