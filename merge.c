@@ -103,7 +103,7 @@ class CustomMission: MissionServer
 		ItemBase gunlight = gun.GetInventory().CreateAttachment("UniversalLight");			
 		gunlight.GetInventory().CreateAttachment("Battery9V");										     
 		addMags(player, "Mag_AKM_30Rnd", 4);														             
-		ItemBase melee = player.GetInventory().CreateInInventory(meleeArray.GetRandomElement());	// Melee
+		ItemBase melee = player.GetInventory().CreateInInventory(meleeArray.GetRandomElement());	
 				
 		player.SetQuickBarEntityShortcut(gun, 0, true);
 		player.SetQuickBarEntityShortcut(melee, 1, true);
