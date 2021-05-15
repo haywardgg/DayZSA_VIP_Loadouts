@@ -243,4 +243,5 @@ Mission CreateCustomMission(string path)
 	return new CustomMission();
 }
 
-// This should be the very last line of your init.c ```
+// This should be the very last line of your init.c
+```
