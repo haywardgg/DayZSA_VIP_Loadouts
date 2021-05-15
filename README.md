@@ -1,5 +1,9 @@
 # DayZSA Custom VIP and Admin Loadouts using init.c
 
+Merge file (advanced method): https://github.com/haywardgb/DayZSA_VIP_Loadouts/blob/main/manually_merge.c
+
+OR
+
 1. Rename your existing missions `init.c` to `backup_init.c` 
 2. Download the correct (missionName).init.c to your mission folder (same location as your old init.c).
 3. Rename `(missionName).init.c` to `init.c`
@@ -12,6 +16,4 @@ You can find your player ID by looking through your console and server logs for 
 You want to cut and paste everything after `id=` and before `)`
 	
 like this: `Iju6RjrohthfN7ITmRaf8eerbS4hjSfyzGs1vhHvm8g=`
-	
-Merge file (advanced method): https://github.com/haywardgb/DayZSA_VIP_Loadouts/blob/main/manually_merge.c
 
