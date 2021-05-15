@@ -2,6 +2,8 @@
 
 class CustomMission: MissionServer
 {	
+	// If you're not using Expansion , you can delete this block //
+	
 	// ------------------------------------------------------------
 	// Override OnInit
 	// ------------------------------------------------------------
@@ -15,6 +17,8 @@ class CustomMission: MissionServer
 
 		super.OnInit();
 	}
+	
+	// End Expansion Block //
 	
 	// ------------------------------------------------------------
 	// Override CreateCharacter
