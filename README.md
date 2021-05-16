@@ -18,5 +18,5 @@ You want to cut and paste everything after `id=` and before `)`
 	
 like this: `Iju6RjrohthfN7ITmRaf8eerbS4hjSfyzGs1vhHvm8g=`
 
-Donations welcome: https://paypal.me/haywyard72, they help keep me motivated to do more stuff like this. 
+Donations welcome: https://paypal.me/haywyard72 . They help keep me motivated to do more stuff like this. 
 
