@@ -2,12 +2,11 @@
 
 class CustomMission: MissionServer
 {	
-	// If you're not using Expansion , you can delete this block //
 	
 	// ------------------------------------------------------------
 	// Override OnInit
 	// ------------------------------------------------------------
-	override void OnInit()
+	 override void OnInit()
 	{
 		ExpansionMissionModule missionModule;
 		if ( Class.CastTo( missionModule, GetModuleManager().GetModule( ExpansionMissionModule ) ) )
