@@ -2,7 +2,7 @@
 
 In case you're thinking of using this script to monetize your server, read this: https://www.bohemia.net/monetization
 
-Pro Tip: Fork this repository so you can edit and track your own changes (top right Fork icon)
+**Pro Tip**: Fork this repository so you can edit and track your own changes (top right Fork icon)
 
 Advanced users can simply use the merge files provided. 
 
