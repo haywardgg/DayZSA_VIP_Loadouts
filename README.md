@@ -1,5 +1,7 @@
 # DayZSA Custom VIP and Admin Loadouts using init.c
 
+In case you're thinking of using this script to monetize your server, read this: https://www.bohemia.net/monetization
+
 Pro Tip: Fork this repository so you can edit and track your own changes (top right Fork icon)
 
 Advanced users can simply use the merge files provided. 
@@ -19,6 +21,6 @@ You want to cut and paste everything after `id=` and before `)`
 like this: `Iju6RjrohthfN7ITmRaf8eerbS4hjSfyzGs1vhHvm8g=`
 
 === End of Instructions ===
-
+  
 Donations welcome: https://paypal.me/haywyard72 . They help keep me motivated to do more stuff like this. 
 
