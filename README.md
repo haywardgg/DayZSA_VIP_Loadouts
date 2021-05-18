@@ -6,7 +6,7 @@ In case you're thinking of using this script to monetize your server, read this:
 
 Advanced users can simply use the merge files provided. 
 
-Everyone else please use follow these instructions:
+Everyone else please follow these instructions:
 
 1. Rename your existing missions `init.c` to `backup_init.c` 
 2. Download the correct `init.c` to your mission folder (same location as your old init.c).
