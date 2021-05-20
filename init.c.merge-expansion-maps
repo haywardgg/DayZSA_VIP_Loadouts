@@ -209,15 +209,13 @@ class CustomMission: MissionServer
 				"uxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx=", 		// VIP 1 		
 				"Ixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx="	 		// VIP 2 		
 			}
-				// ADMIN LOADOUT
+				
 			if (adminMembers.Find(identity.GetId()) != -1) { 			
-				adminLoadOut(player);				
-					   // VIP LOADOUT
+				adminLoadOut(player);	// ADMIN LOADOUT				  
 			} else if (vipMembers.Find(identity.GetId()) != -1) { 		
-				vipLoadOut(player);
+				vipLoadOut(player); 	// VIP LOADOUT
 			} else {
-				// Default Non-VIP Non-Admin Loadout
-				randomLoadOut(player); 
+				randomLoadOut(player); 	// Default Non-VIP Non-Admin Loadout
 			}
 	}
 	
