@@ -263,25 +263,23 @@ class CustomMission: MissionServer
 			player.RemoveAllItems();
 			PlayerIdentity identity; 
 		
-			// ADMIN UIDS
-			ref TStringArray adminMembers = { 
-				"sxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx=", 		// Admin 1	
-				"8xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx=" 			// Admin 2 	
+			ref TStringArray adminMembers = { // ADMIN IDS
+				"FfmgBE23wertqn0tJIwRxYj4aEbZz4EQhG-7O4WPuFZ4=", 		// Admin 1 (using Bohemia UID) 		
+				"77777777777777"										// Admin 2 (using Steam ID) 
 			}
 			
-			// VIP UIDS
-			ref TStringArray vipMembers = { 
-				"uxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx=", 		// VIP 1 		
-				"Ixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx="	 		// VIP 2 		
+			ref TStringArray vipMembers = { // VIP IDS
+				"JCmXrrt43efttyhfewew7tRLMUCOE6roH2O8SklBB1o=", 		// VIP 1 (using Bohemia UID) 			
+				"55555555555555"										// VIP 2 (using Steam ID) 
 			}
-			
-		// Don't touch anything below this line - Unless you know what you're doing.
-			if (adminMembers.Find(identity.GetId()) != -1) { 			
-				adminLoadOut(player);												
-			} else if (vipMembers.Find(identity.GetId()) != -1) { 		
-				vipLoadOut(player);										
+		
+		// Don't touch anything below this line - Unless you know what you're doing.				
+			if ((adminMembers.Find(identity.GetPlainId()) != -1) || (adminMembers.Find(identity.GetId()) != -1)) { 			
+				adminLoadOut(player);	// ADMIN LOADOUT			
+			} else if ((vipMembers.Find(identity.GetPlainId()) != -1) || (vipMembers.Find(identity.GetId()) != -1)) { 		
+				vipLoadOut(player);		// VIP LOADOUT
 			} else {
-				randomLoadOut(player); 									
+				randomLoadOut(player);	// Default Non-VIP Non-Admin Loadout
 			}
 		}
 	}
