@@ -258,8 +258,10 @@ class CustomMission: MissionServer
 	
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
 	{
-		player.RemoveAllItems();
-		PlayerIdentity identity; 
+		if ( !GetExpansionSettings().GetSpawn().StartingClothing.EnableCustomClothing )
+		{
+			player.RemoveAllItems();
+			PlayerIdentity identity; 
 		
 			// ADMIN UIDS
 			ref TStringArray adminMembers = { 
@@ -272,16 +274,16 @@ class CustomMission: MissionServer
 				"uxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx=", 		// VIP 1 		
 				"Ixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx="	 		// VIP 2 		
 			}
-				// ADMIN LOADOUT
+			
+		// Don't touch anything below this line - Unless you know what you're doing.
 			if (adminMembers.Find(identity.GetId()) != -1) { 			
-				adminLoadOut(player);				
-					   // VIP LOADOUT
+				adminLoadOut(player);												
 			} else if (vipMembers.Find(identity.GetId()) != -1) { 		
-				vipLoadOut(player);
+				vipLoadOut(player);										
 			} else {
-				// Default Non-VIP Non-Admin Loadout
-				randomLoadOut(player); 
+				randomLoadOut(player); 									
 			}
+		}
 	}
 	
 };
