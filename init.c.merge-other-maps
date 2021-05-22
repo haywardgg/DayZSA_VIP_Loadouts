@@ -180,8 +180,6 @@ class CustomMission: MissionServer
 	
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
 	{
-		if ( !GetExpansionSettings().GetSpawn().StartingClothing.EnableCustomClothing )
-		{
 			player.RemoveAllItems();
 			PlayerIdentity identity; 
 		
@@ -206,8 +204,7 @@ class CustomMission: MissionServer
 				randomLoadOut(player); 									
 			}
 		}
-	}
-	
+
 };
 
 Mission CreateCustomMission(string path)
