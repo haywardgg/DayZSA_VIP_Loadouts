@@ -265,12 +265,12 @@ class CustomMission: MissionServer
 		
 			ref TStringArray adminMembers = { // ADMIN IDS
 				"FfmgBE23wertqn0tJIwRxYj4aEbZz4EQhG-7O4WPuFZ4=", 		// Admin 1 (using Bohemia UID) 		
-				"77777777777777"										// Admin 2 (using Steam ID) 
+				"77777777777777"						// Admin 2 (using Steam ID) 
 			}
 			
 			ref TStringArray vipMembers = { // VIP IDS
 				"JCmXrrt43efttyhfewew7tRLMUCOE6roH2O8SklBB1o=", 		// VIP 1 (using Bohemia UID) 			
-				"55555555555555"										// VIP 2 (using Steam ID) 
+				"55555555555555"						// VIP 2 (using Steam ID) 
 			}
 		
 		// Don't touch anything below this line - Unless you know what you're doing.				
