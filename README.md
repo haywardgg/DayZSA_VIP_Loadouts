@@ -1,8 +1,6 @@
 # DayZSA Custom VIP and Admin Loadouts using init.c
 
-If anyone can help me make this better, please get in touch. I've had reports that even if players are not in the Admin ID array, those players can still spawn with admin gear. It seems very random and only effects some servers, but not others. 
-
-Anyway, my email is haywardgb@outlook.com . Get in touch if you think you can help. 
+If anyone can help me make this better, please get in touch. I've had reports that even if players are not in the Admin ID array, those players can still spawn with admin gear. Vise versa too, players with their ID in the Admin Array can spawn with default gear. It seems very random and only effects some servers, but not others.  Anyway, my email is haywardgb@outlook.com . Get in touch if you think you can help. 
 
 ========
 
