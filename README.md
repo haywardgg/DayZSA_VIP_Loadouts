@@ -1,4 +1,4 @@
-# 🥰 DayZSA Custom VIP and Admin Loadouts using init.c
+## 🥰 DayZSA Custom VIP and Admin Loadouts using init.c
 
 Originally scripted for UNIT487 DayZ server: Search community server list for "UNIT487"
 
@@ -36,20 +36,20 @@ like this: `Iju6RjrohthfN7ITmRaf8eerbS4hjSfyzGs1vhHvm8g=`
   
 Get your Steam64 ID from this website: https://steamidfinder.com/
 
-## 💝 Donation and Discord Links 🗫
+### 💝 Donation and Discord Links 🗫
 
 - Join my [**Discord**](https://discord.gg/dkRjW23XXj) if you've got any questions. 
   
 - My scripts and mods will always be free, but donations are welcome via [**PayPal**](https://paypal.me/hayward72) (Thank you)  
 
-## ✔️ ToDo List
+### ✔️ ToDo List
 
 - [x] Fix bug where loadouts were being assigned at random to the wrong playres.
 - [x] Make it compatible with non-Expansion maps.
 - [x] Make adding IDs easier for the end user (get rid of the complicated embedded array)
 - [ ] Make it possible for server owners to add IDs on the fly without needing to restart the server.
 
-## 🤝 Credits
+### 🤝 Credits
 **LieutenantMaster, Expansion developer** for his help with improving the script.   
 **Blain, Playbox.Survival server** for helping me thoroughly test the script.   
 **Chopper,** [**Better Loadouts**](https://steamcommunity.com/sharedfiles/filedetails/?id=1782718362) for the sample loadouts.
