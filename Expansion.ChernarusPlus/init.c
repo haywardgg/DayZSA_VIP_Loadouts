@@ -67,7 +67,19 @@ void main()
 }
 
 class CustomMission: MissionServer
-{	
+{
+
+    ref array< string > adminMembers = new array< string >;
+    ref array< string > vipMembers = new array< string >;
+
+    void CustomMission()
+    {
+        adminMembers = new array< string >;
+        vipMembers = new array< string >;
+      
+        InitPlayerWhitelist();
+	}
+
 	// ------------------------------------------------------------
 	// Override OnInit
 	// ------------------------------------------------------------
@@ -160,11 +172,11 @@ class CustomMission: MissionServer
 		rags.SetQuantity(4);
 		ItemBase light = player.GetInventory().CreateInInventory("Flashlight");
 		light.GetInventory().CreateAttachment("Battery9V");
-		EntityAI gun = player.GetInventory().CreateInInventory("AKM");					// Weapon
-		gun.GetInventory().CreateAttachment("AK_RailHndgrd");						// Weapon Attachment 
-		ItemBase gunlight = gun.GetInventory().CreateAttachment("UniversalLight");			// Weapon Attachment (Universal Light)
-		gunlight.GetInventory().CreateAttachment("Battery9V");						//     Add battery to Universal Light
-		addMags(player, "Mag_AKM_30Rnd", 4);								// Magazines
+		EntityAI gun = player.GetInventory().CreateInInventory("AKM");								// Weapon
+		gun.GetInventory().CreateAttachment("AK_RailHndgrd");										// Weapon Attachment 
+		ItemBase gunlight = gun.GetInventory().CreateAttachment("UniversalLight");					// Weapon Attachment (Universal Light)
+		gunlight.GetInventory().CreateAttachment("Battery9V");										//     Add battery to Universal Light
+		addMags(player, "Mag_AKM_30Rnd", 4);														// Magazines
 		ItemBase melee = player.GetInventory().CreateInInventory(meleeArray.GetRandomElement());	// Melee
 				
 		player.SetQuickBarEntityShortcut(gun, 0, true);
@@ -205,8 +217,8 @@ class CustomMission: MissionServer
 		rags.SetQuantity(4);
 		ItemBase light = player.GetInventory().CreateInInventory("Flashlight");
 		light.GetInventory().CreateAttachment("Battery9V");
-		EntityAI gun = player.GetInventory().CreateInInventory("AKS74U");				// Weapon
-		addMags(player, "Mag_AK74_30Rnd", 2);								// Magazines
+		EntityAI gun = player.GetInventory().CreateInInventory("AKS74U");							// Weapon
+		addMags(player, "Mag_AK74_30Rnd", 2);														// Magazines
 		ItemBase melee = player.GetInventory().CreateInInventory(meleeArray.GetRandomElement());	// Melee
 		
 		player.SetQuickBarEntityShortcut(gun, 0, true);
@@ -247,8 +259,8 @@ class CustomMission: MissionServer
 		rags.SetQuantity(4);
 		ItemBase light = player.GetInventory().CreateInInventory("Flashlight");
 		light.GetInventory().CreateAttachment("Battery9V");
-		EntityAI gun = player.GetInventory().CreateInInventory("AKS74U");  				// Weapon
-		addMags(player, "Mag_AK74_30Rnd", 2); 								// Magazines								
+		EntityAI gun = player.GetInventory().CreateInInventory("AKS74U");  							// Weapon
+		addMags(player, "Mag_AK74_30Rnd", 2); 														// Magazines								
 		ItemBase melee = player.GetInventory().CreateInInventory(meleeArray.GetRandomElement());	// Melee
 		
 		player.SetQuickBarEntityShortcut(gun, 0, true);
@@ -261,28 +273,54 @@ class CustomMission: MissionServer
 		if ( !GetExpansionSettings().GetSpawn().StartingClothing.EnableCustomClothing )
 		{
 			player.RemoveAllItems();
-			PlayerIdentity identity; 
-		
-			ref TStringArray adminMembers = { // ADMIN IDS
-				"FfmgBE23wertqn0tJIwRxYj4aEbZz4EQhG-7O4WPuFZ4=", 		// Admin 1 (using Bohemia UID) 		
-				"77777777777777"										// Admin 2 (using Steam ID) 
-			}
-			
-			ref TStringArray vipMembers = { // VIP IDS
-				"JCmXrrt43efttyhfewew7tRLMUCOE6roH2O8SklBB1o=", 		// VIP 1 (using Bohemia UID) 			
-				"55555555555555"										// VIP 2 (using Steam ID) 
-			}
-		
-		// Don't touch anything below this line - Unless you know what you're doing.				
-			if ((adminMembers.Find(identity.GetPlainId()) != -1) || (adminMembers.Find(identity.GetId()) != -1)) { 			
-				adminLoadOut(player);	// ADMIN LOADOUT			
-			} else if ((vipMembers.Find(identity.GetPlainId()) != -1) || (vipMembers.Find(identity.GetId()) != -1)) { 		
-				vipLoadOut(player);		// VIP LOADOUT
+						
+			if (adminMembers.Find(GetUserID(player)) != -1 || adminMembers.Find(GetUserSteamID(player)) != -1 ) {		
+				adminLoadOut(player);			
+			} else if (vipMembers.Find(GetUserID(player)) != -1 || vipMembers.Find(GetUserSteamID(player)) != -1 ) { 		
+				vipLoadOut(player);	
 			} else {
-				randomLoadOut(player);	// Default Non-VIP Non-Admin Loadout
+				randomLoadOut(player);	
 			}
 		}
 	}
+	
+	string GetUserID(PlayerBase player)
+    {
+        if ( player.GetIdentity() )
+            return player.GetIdentity().GetPlainId();
+        
+        return "OFFLINE";
+    }
+
+    string GetUserSteamID(PlayerBase player)
+    {
+        if ( player.GetIdentity() )
+            return player.GetIdentity().GetId();
+        
+        return "OFFLINE";
+    }
+	
+	void InitPlayerWhitelist()
+    {
+		// Example with Bohemia UID: 	adminMembers.Insert( "JCmXrrt43efttyhfewew7tRLMUCOE6roH2O8SklBB1o=" );
+		// Example with Steam64 ID: 	adminMembers.Insert( "76561198040948171" );
+		
+		// ADMIN MEMBERS: Can be Steam64 ID or Bohemia UID
+		adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+        adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+        adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+        adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+		
+		// VIP MEMBERS: Can be Steam64 ID or Bohemia UID
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+    }
 	
 };
 
