@@ -17,15 +17,16 @@ Everyone else please follow these instructions:
 3. Edit the file and add your VIP / Admin IDs to the appropriate array. They are clearly marked with comments. 
 
 ```c
-ref TStringArray adminMembers = { // ADMIN IDS
-	"FfmgBE23wertqn0tJIwRxYj4aEbZz4EQhG-7O4WPuFZ4=", // Admin 1 (using Bohemia UID) 		
-	"77777777777777"				 // Admin 2 (using Steam ID) 
-}
-			
-ref TStringArray vipMembers = { // VIP IDS
-	"JCmXrrt43efttyhfewew7tRLMUCOE6roH2O8SklBB1o=", // VIP 1 (using Bohemia UID) 			
-	"55555555555555"				// VIP 2 (using Steam ID) 
-}
+	// Example with Bohemia UID: 	adminMembers.Insert( "JCmXrrt43efttyhfewew7tRLMUCOE6roH2O8SklBB1o=" );
+	// Example with Steam64 ID: 	adminMembers.Insert( "76561198040948171" );
+		
+	// ADMIN MEMBERS: Can be Steam64 ID or Bohemia UID
+	adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+        adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+		
+	// VIP MEMBERS: Can be Steam64 ID or Bohemia UID
+	vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
 ```
 
 You can find your player ID by looking through your console and server logs for entries like this:
