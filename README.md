@@ -1,4 +1,4 @@
-## 🥰 DayZSA Custom VIP and Admin Loadouts using init.c
+## ✨ DayZSA Custom VIP and Admin Loadouts using init.c
 
 Originally scripted for UNIT487 DayZ server: Search community server list for "UNIT487"
 
