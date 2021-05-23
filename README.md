@@ -34,9 +34,9 @@ You want to cut and paste everything after `id=` and before `)`
 	
 like this: `Iju6RjrohthfN7ITmRaf8eerbS4hjSfyzGs1vhHvm8g=`  
   
-Or simply use your Steam64 ID, find it with this tool: https://steamidfinder.com/
+Get your Steam64 ID from this website: https://steamidfinder.com/
 
-=== End of Instructions ===
+=== Good luck and join my Discord if you've got any questions: https://discord.gg/dkRjW23XXj ===
   
 Donations welcome: https://paypal.me/hayward72 .
 
