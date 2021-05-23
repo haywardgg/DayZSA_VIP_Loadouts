@@ -282,24 +282,24 @@ class CustomMission: MissionServer
 	
 	void InitPlayerWhitelist()
     {
-	// Example with Bohemia UID: 	adminMembers.Insert( "JCmXrrt43efttyhfewew7tRLMUCOE6roH2O8SklBB1o=" );
-	// Example with Steam64 ID: 	adminMembers.Insert( "76561198040948171" );
-		
-	// ADMIN MEMBERS: Can be Steam64 ID or Bohemia UID
-	adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
-        adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
-        adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
-        adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
-		
-	// VIP MEMBERS: Can be Steam64 ID or Bohemia UID
-	vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-	vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+		// Example with Bohemia UID: 	adminMembers.Insert( "JCmXrrt43efttyhfewew7tRLMUCOE6roH2O8SklBB1o=" );
+		// Example with Steam64 ID: 	adminMembers.Insert( "76561198040948171" );
+				
+		// ADMIN MEMBERS: Can be Steam64 ID or Bohemia UID
+		adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+		adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+		adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+		adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+				
+		// VIP MEMBERS: Can be Steam64 ID or Bohemia UID
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
     }
 };
   
