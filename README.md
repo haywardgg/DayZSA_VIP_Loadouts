@@ -36,6 +36,8 @@ like this: `Iju6RjrohthfN7ITmRaf8eerbS4hjSfyzGs1vhHvm8g=`
   
 Get your Steam64 ID from this website: https://steamidfinder.com/
 
+---
+
 ### 💝 Donation and Discord Links 🗫
 
 - Join my [**Discord**](https://discord.gg/dkRjW23XXj) if you've got any questions. 
