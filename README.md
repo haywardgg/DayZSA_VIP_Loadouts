@@ -41,5 +41,4 @@ Or simply use your Steam64 ID, find it with this tool: https://steamidfinder.com
   
 Donations welcome: https://paypal.me/hayward72 .
 
-TODO: Make it possible for server owners to add IDs to a dynamically loaded file so VIPs and Admins can be added without needing to restart the server.
-
+TODO: Make it possible for server owners to add IDs dynamically so player can be added without needing to restart the server.
