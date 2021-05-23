@@ -136,7 +136,28 @@ class CustomMission: MissionServer
 
 		player.SetQuickBarEntityShortcut(mag, 2, true);
 	}
-
+	
+	void InitPlayerWhitelist()
+    {
+		// Example with Bohemia UID: 	adminMembers.Insert( "JCmXrrt43efttyhfewew7tRLMUCOE6roH2O8SklBB1o=" );
+		// Example with Steam64 ID: 	adminMembers.Insert( "76561198040948171" );
+				
+		// ADMIN MEMBERS: Can be Steam64 ID or Bohemia UID
+		adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+		adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+		adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+		adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+				
+		// VIP MEMBERS: Can be Steam64 ID or Bohemia UID
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+    }
 
 // Admin Loadout
 	EntityAI adminLoadOut(PlayerBase player)
@@ -268,6 +289,8 @@ class CustomMission: MissionServer
 		return gun;
 	}
 	
+	// DO NOT Edit anything Below This Line 
+	
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
 	{
 		if ( !GetExpansionSettings().GetSpawn().StartingClothing.EnableCustomClothing )
@@ -298,28 +321,6 @@ class CustomMission: MissionServer
             return player.GetIdentity().GetId();
         
         return "OFFLINE";
-    }
-	
-	void InitPlayerWhitelist()
-    {
-		// Example with Bohemia UID: 	adminMembers.Insert( "JCmXrrt43efttyhfewew7tRLMUCOE6roH2O8SklBB1o=" );
-		// Example with Steam64 ID: 	adminMembers.Insert( "76561198040948171" );
-				
-		// ADMIN MEMBERS: Can be Steam64 ID or Bohemia UID
-		adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
-		adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
-		adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
-		adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
-				
-		// VIP MEMBERS: Can be Steam64 ID or Bohemia UID
-		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
     }
 	
 };
