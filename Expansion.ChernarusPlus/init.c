@@ -307,19 +307,19 @@ class CustomMission: MissionServer
 		
 	// ADMIN MEMBERS: Can be Steam64 ID or Bohemia UID
 	adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
-        adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
-        adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
-        adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+	adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+	adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+	adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
 		
 	// VIP MEMBERS: Can be Steam64 ID or Bohemia UID
 	vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
 	vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+	vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+	vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+	vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+	vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+	vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+	vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
     }
 	
 };
