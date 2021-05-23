@@ -262,7 +262,7 @@ class CustomMission: MissionServer
         adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
 		
 	// VIP MEMBERS: Can be Steam64 ID or Bohemia UID
-		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+	vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
         vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
         vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
         vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
