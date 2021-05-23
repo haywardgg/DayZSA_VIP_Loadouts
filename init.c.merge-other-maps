@@ -92,12 +92,12 @@ class CustomMission: MissionServer
 		rags.SetQuantity(4);
 		ItemBase light = player.GetInventory().CreateInInventory("Flashlight");
 		light.GetInventory().CreateAttachment("Battery9V");
-		EntityAI gun = player.GetInventory().CreateInInventory("AKM");								// Weapon
-		gun.GetInventory().CreateAttachment("AK_RailHndgrd");										// Weapon Attachment 
+		EntityAI gun = player.GetInventory().CreateInInventory("AKM");							// Weapon
+		gun.GetInventory().CreateAttachment("AK_RailHndgrd");								// Weapon Attachment 
 		ItemBase gunlight = gun.GetInventory().CreateAttachment("UniversalLight");					// Weapon Attachment (Universal Light)
-		gunlight.GetInventory().CreateAttachment("Battery9V");										//     Add battery to Universal Light
-		addMags(player, "Mag_AKM_30Rnd", 4);														// Magazines
-		ItemBase melee = player.GetInventory().CreateInInventory(meleeArray.GetRandomElement());	// Melee
+		gunlight.GetInventory().CreateAttachment("Battery9V");								//     Add battery to Universal Light
+		addMags(player, "Mag_AKM_30Rnd", 4);										// Magazines
+		ItemBase melee = player.GetInventory().CreateInInventory(meleeArray.GetRandomElement());			// Melee
 				
 		player.SetQuickBarEntityShortcut(gun, 0, true);
 		player.SetQuickBarEntityShortcut(melee, 1, true);
@@ -137,8 +137,8 @@ class CustomMission: MissionServer
 		rags.SetQuantity(4);
 		ItemBase light = player.GetInventory().CreateInInventory("Flashlight");
 		light.GetInventory().CreateAttachment("Battery9V");
-		EntityAI gun = player.GetInventory().CreateInInventory("AKS74U");							// Weapon
-		addMags(player, "Mag_AK74_30Rnd", 2);														// Magazines
+		EntityAI gun = player.GetInventory().CreateInInventory("AKS74U");				// Weapon
+		addMags(player, "Mag_AK74_30Rnd", 2);								// Magazines
 		ItemBase melee = player.GetInventory().CreateInInventory(meleeArray.GetRandomElement());	// Melee
 		
 		player.SetQuickBarEntityShortcut(gun, 0, true);
@@ -179,8 +179,8 @@ class CustomMission: MissionServer
 		rags.SetQuantity(4);
 		ItemBase light = player.GetInventory().CreateInInventory("Flashlight");
 		light.GetInventory().CreateAttachment("Battery9V");
-		EntityAI gun = player.GetInventory().CreateInInventory("AKS74U");  							// Weapon
-		addMags(player, "Mag_AK74_30Rnd", 2); 														// Magazines								
+		EntityAI gun = player.GetInventory().CreateInInventory("AKS74U");  				// Weapon
+		addMags(player, "Mag_AK74_30Rnd", 2); 								// Magazines								
 		ItemBase melee = player.GetInventory().CreateInInventory(meleeArray.GetRandomElement());	// Melee
 		
 		player.SetQuickBarEntityShortcut(gun, 0, true);
@@ -219,21 +219,21 @@ class CustomMission: MissionServer
 	
 	void InitPlayerWhitelist()
     {
-		// Example with Bohemia UID: 	adminMembers.Insert( "JCmXrrt43efttyhfewew7tRLMUCOE6roH2O8SklBB1o=" );
-		// Example with Steam64 ID: 	adminMembers.Insert( "76561198040948171" );
+	// Example with Bohemia UID: 	adminMembers.Insert( "JCmXrrt43efttyhfewew7tRLMUCOE6roH2O8SklBB1o=" );
+	// Example with Steam64 ID: 	adminMembers.Insert( "76561198040948171" );
 		
-		// ADMIN MEMBERS: Can be Steam64 ID or Bohemia UID
-		adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
+	// ADMIN MEMBERS: Can be Steam64 ID or Bohemia UID
+	adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
         adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
         adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
         adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
 		
-		// VIP MEMBERS: Can be Steam64 ID or Bohemia UID
-		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+	// VIP MEMBERS: Can be Steam64 ID or Bohemia UID
+	vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
         vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
         vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
         vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-		vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+	vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
         vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
         vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
         vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
