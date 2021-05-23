@@ -15,7 +15,6 @@ Everyone else please follow these instructions:
 3. Edit the file and add your VIP / Admin IDs to the appropriate array. They are clearly marked with comments. 
 
 ```c
-	// Example with Bohemia UID: 	adminMembers.Insert( "JCmXrrt43efttyhfewew7tRLMUCOE6roH2O8SklBB1o=" );
 	// Example with Steam64 ID: 	adminMembers.Insert( "76561198040948171" );
 		
 	// ADMIN MEMBERS: Can be Steam64 ID or Bohemia UID
