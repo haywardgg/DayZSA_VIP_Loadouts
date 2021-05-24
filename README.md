@@ -50,7 +50,6 @@ Get your Steam64 ID from this website: https://steamidfinder.com/
 - [x] Fix bug where loadouts are being assigned at random to the wrong playres.
 - [x] Make it compatible with non-Expansion maps.
 - [x] Make adding IDs easier for the end user (get rid of the complicated embedded array)
-- [ ] Make it possible for server owners to add IDs on the fly without needing to restart the server.
 
 ### 🤝 Credits
 **LieutenantMaster, Expansion developer** for his help with improving the script.   
