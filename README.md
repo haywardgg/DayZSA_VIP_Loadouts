@@ -39,17 +39,11 @@ Get your Steam64 ID from this website: https://steamidfinder.com/
 
 ---
 
-### 💝 Donation and Discord Links 🗫
+### 🥰 Donation and Discord Links 🗫
 
 - Join my [**Discord**](https://discord.gg/dkRjW23XXj) if you've got any questions. 
   
 - My scripts and mods will always be free, but donations are welcome via [**PayPal**](https://paypal.me/hayward72) (Thank you)  
-
-### ✔️ ToDo List
-
-- [x] Fix bug where loadouts are being assigned at random to the wrong playres.
-- [x] Make it compatible with non-Expansion maps.
-- [x] Make adding IDs easier for the end user (get rid of the complicated embedded array)
 
 ### 🤝 Credits
 **LieutenantMaster, Expansion developer** for his help with improving the script.   
