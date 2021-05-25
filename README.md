@@ -1,6 +1,6 @@
 ## ✨ DayZSA Custom VIP and Admin Loadouts using init.c
 
-Originally scripted for UNIT487 DayZ server: Search community server list for "UNIT487"
+Originally scripted for UNIT487 DayZ server.
 
 In case you're thinking of using this script to monetize your server, read this: https://www.bohemia.net/monetization
 
