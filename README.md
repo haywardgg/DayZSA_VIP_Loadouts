@@ -39,7 +39,7 @@ Get your Steam64 ID from this website: https://steamidfinder.com/
 
 ---
 
-### 🥰 Donation and Discord Links 🗫
+### 🥰 Donation and Discord Links 💬
 
 Join my [**Discord**](https://discord.gg/dkRjW23XXj) if you've got any questions.   
 Donations are welcome via [**PayPal**](https://paypal.me/hayward72) (Thank you)  
