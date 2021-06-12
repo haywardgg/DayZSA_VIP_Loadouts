@@ -53,7 +53,7 @@ Each Array can be either empty, contain a single item or contain multiple items.
 Lines like this `player.GetInventory().CreateInInventory(hatArray.GetRandomElement());` don't need to be edited. But you can however replace `hatArray.GetRandomElement()` with `"BallisticHelmet_Blue"` for example, which would override any hat array from the previous code example above. You can see an example in the `init.c` file with the Admin loadout, where I've given the admin a LockPick. Remember these are mostly just examples, you can either keep them, edit them or remove them. 
 
 **NOTE:** Do not delete any lines, just delete the `"item_classname"` and leave the quotes empty like this `""`. 
-You can do this for the ammo, weapon, rags, etc.. too! **Always back up your files before editing**
+You can do this for the ammo, weapon, rags, etc.. too! **Always backup your files before editing**
 
 **DISCLAIMER:** Use these configs at your own risk. I'm under no obligations to fix your configs or to teach you how to code.  
 
