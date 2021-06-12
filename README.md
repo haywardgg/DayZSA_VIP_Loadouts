@@ -26,6 +26,7 @@ Everyone else please follow these instructions:
 	vipMembersSilver.Insert( "ReplaceWithUniqueID" ); // Players Name
         vipMembersSilver.Insert( "ReplaceWithUniqueID" ); // Players Name
 ```
+Careful to add your ID's to the correct lists.
 
 You can find your player ID by looking through your console and server logs for entries like this:
 	
