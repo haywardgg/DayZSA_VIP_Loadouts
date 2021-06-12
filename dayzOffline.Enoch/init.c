@@ -105,7 +105,6 @@ class CustomMission: MissionServer
 		// MODERATOR MEMBERS: Can be Steam64 ID or Bohemia UID
 		modMembers.Insert( "ReplaceWithUniqueID" ); // Moderators Name
 		modMembers.Insert( "ReplaceWithUniqueID" ); // Moderators Name		
-		
 				
 		// Silver VIP MEMBERS: Can be Steam64 ID or Bohemia UID
 		vipMembersSilver.Insert( "ReplaceWithUniqueID" ); // Players Name
