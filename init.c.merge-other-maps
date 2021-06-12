@@ -13,7 +13,7 @@ class CustomMission: MissionServer
         adminMembers = new array< string >;
         modMembers = new array< string >;
         vipMembersSilver = new array< string >;
-		vipMembersGold = new array< string >;
+	vipMembersGold = new array< string >;
         InitPlayerWhitelist();
 	}
 
