@@ -55,8 +55,7 @@ Lines like this `player.GetInventory().CreateInInventory(hatArray.GetRandomEleme
 **NOTE:** Do not delete any lines, just delete the `"item_classname"` and leave the quotes empty like this `""`. 
 You can do this for the ammo, weapon, rags, etc.. too! **Always backup your files before editing**
 
-**DISCLAIMER:** Use these configs at your own risk. I'm under no obligations to fix your configs or to teach you how to code.   
-I've done my best to answer the most frequently asked questions [Here](https://github.com/haywardgb/DayZSA_VIP_Loadouts/wiki/FAQ) on my FAQ Wiki page.
+**DISCLAIMER:** Use these configs at your own risk. I'm under no obligations to fix your configs or to teach you how to code. I've done my best to answer the most frequently asked questions [Here](https://github.com/haywardgb/DayZSA_VIP_Loadouts/wiki/FAQ) on my FAQ Wiki page.
 
 ### 🥰 Donation and Discord Links 💬
 
