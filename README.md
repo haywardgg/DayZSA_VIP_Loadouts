@@ -22,9 +22,9 @@ Everyone else please follow these instructions:
 	adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
         adminMembers.Insert( "ReplaceWithUniqueID" ); // Admins Name
 		
-	// VIP MEMBERS: Can be Steam64 ID or Bohemia UID
-	vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
-        vipMembers.Insert( "ReplaceWithUniqueID" ); // Players Name
+	// Silver VIP MEMBERS: Can be Steam64 ID or Bohemia UID
+	vipMembersSilver.Insert( "ReplaceWithUniqueID" ); // Players Name
+        vipMembersSilver.Insert( "ReplaceWithUniqueID" ); // Players Name
 ```
 
 You can find your player ID by looking through your console and server logs for entries like this:
