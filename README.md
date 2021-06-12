@@ -36,7 +36,26 @@ like this: `Iju6RjrohthfN7ITmRaf8eerbS4hjSfyzGs1vhHvm8g=`
   
 Get your Steam64 ID from this website: https://steamidfinder.com/
 
----
+5. Now you can edit the loadouts.
+
+```c
+	EntityAI adminLoadOut(PlayerBase player) 
+	{
+		ref TStringArray hatArray = {"BallisticHelmet_Black"};
+		ref TStringArray topArray = {"M65Jacket_Black","M65Jacket_Green"};
+		ref TStringArray pantsArray = {"CargoPants_Black"};	
+		ref TStringArray vestArray  = {""};
+```
+Each Array can be either empty, contain a single item or contain multiple items. If an array contains multiple items then one of those items will be selected at random. You can list multiple items like this `"item1","item2","item3","etc"`. There is no comma or full stop after the last item in an Array. If you don't want any items listed in an Array just add `""` (see above for examples). 
+
+**Important:** Only `ref TStringArray`'s can have multiple items. 
+
+Lines like this `player.GetInventory().CreateInInventory(hatArray.GetRandomElement());` don't need to be edited. But you can however replace `hatArray.GetRandomElement()` with `"BallisticHelmet_Blue"` for example, which would override any hat array from the previous code example above. You can see an example in the `init.c` file with the Admin loadout, where I've given the admin a LockPick. Remember these are mostly just examples, you can either keep them, edit them or remove them. 
+
+**NOTE:** Do not delete any lines, just delete the `"item_classname"` and leave the quotes empty like this `""`. 
+You can do this for the ammo, weapon, rags, etc.. too! **Always back up your files before editing**
+
+**DISCLAIMER:** Use these configs at your own risk. I'm under no obligations to fix your configs or to teach you how to code.  
 
 ### 🥰 Donation and Discord Links 💬
 
