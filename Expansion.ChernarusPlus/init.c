@@ -79,7 +79,7 @@ class CustomMission: MissionServer
         adminMembers = new array< string >;
         modMembers = new array< string >;
         vipMembersSilver = new array< string >;
-		vipMembersGold = new array< string >;
+	vipMembersGold = new array< string >;
         InitPlayerWhitelist();
 	}
 
@@ -141,7 +141,7 @@ class CustomMission: MissionServer
 	}
 	
 	void InitPlayerWhitelist()
-    {
+    	{
 		// Example with Bohemia UID: 	adminMembers.Insert( "JCmXrrt43efttyhfewew7tRLMUCOE6roH2O8SklBB1o=" );
 		// Example with Steam64 ID: 	adminMembers.Insert( "76561198040948171" );
 				
@@ -161,7 +161,7 @@ class CustomMission: MissionServer
 		// Gold VIP MEMBERS: Can be Steam64 ID or Bohemia UID
 		vipMembersGold.Insert( "ReplaceWithUniqueID" ); // Players Name
 		vipMembersGold.Insert( "ReplaceWithUniqueID" ); // Players Name
-    }
+	}
 
 // Admin Loadout
 	EntityAI adminLoadOut(PlayerBase player)
