@@ -48,8 +48,6 @@ Get your Steam64 ID from this website: https://steamidfinder.com/
 ```
 Each Array can be either empty, contain a single item or contain multiple items. If an array contains multiple items then one of those items will be selected at random. You can list multiple items like this `"item1","item2","item3","etc"`. There is no comma or full stop after the last item in an Array. If you don't want any items listed in an Array just add `""` (see above for examples). 
 
-**Important:** Only `ref TStringArray`'s can have multiple items. 
-
 Lines like this `player.GetInventory().CreateInInventory(hatArray.GetRandomElement());` don't need to be edited. But you can however replace `hatArray.GetRandomElement()` with `"BallisticHelmet_Blue"` for example, which would override any hat array from the previous code example above. You can see an example in the `init.c` file with the Admin loadout, where I've given the admin a LockPick. Remember these are mostly just examples, you can either keep them, edit them or remove them. 
 
 **NOTE:** Do not delete any lines, just delete the `"item_classname"` and leave the quotes empty like this `""`. 
