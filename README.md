@@ -1,5 +1,7 @@
 ## ✨ DayZSA Custom VIP and Admin Loadouts using init.c
 
+Follow me on Twitch: [https://twitch.tv/haywardgg](https://twitch.tv/haywardgg)
+
 In case you're thinking of using this script to monetize your server, [read this first](https://www.bohemia.net/monetization).
 
 **Pro Tip**: Fork this repository so you can edit and track your own changes (top right Fork icon)
