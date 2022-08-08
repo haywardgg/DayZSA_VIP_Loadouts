@@ -57,7 +57,7 @@ You can do this for the ammo, weapon, rags, etc.. too! **Always backup your file
 
 **DISCLAIMER:** Use these configs at your own risk. I'm under no obligations to fix your configs or to teach you how to code. I've done my best to answer the most frequently asked questions [Here](https://github.com/haywardgb/DayZSA_VIP_Loadouts/wiki/FAQ) on my FAQ Wiki page.
 
-Donations are welcome via [**PayPal**](https://paypal.me/hayward72) (Thank you)  
+Donations are welcome through [**PayPal**](https://paypal.me/hayward72) or [**Tip Me**](https://streamelements.com/haywardgg/tip) (Thank you)  
 
 ### 🤝 Credits
 **LieutenantMaster, Expansion developer** for his help with improving the script.   
