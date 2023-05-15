@@ -11,7 +11,7 @@ Advanced users can simply use the merge files provided.
 Everyone else please follow these instructions:
 
 1. Rename your existing missions `init.c` to `backup_init.c` 
-2. [Download](https://github.com/haywardgb/DayZSA_VIP_Loadouts/archive/refs/heads/main.zip) this repository and unzip it to a temporary folder, or your desktop.
+2. [Download](https://github.com/haywardgg/DayZSA_VIP_Loadouts/archive/refs/heads/main.zip) this repository and unzip it to a temporary folder, or your desktop.
 3. Copy the `init.c` from the appropriate *<Mission.Folder>* to your *<Mission.Folder>* (same location as your old init.c).
 4. Edit the new `init.c` file and add your VIP / Admin IDs to the appropriate list. They are clearly marked with comments. 
 
